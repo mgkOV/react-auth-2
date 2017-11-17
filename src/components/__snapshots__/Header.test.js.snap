@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="nav-wrapper indigo darken-1"
+>
+        <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                className="brand-logo"
+                to="/"
+        >
+                <MdAlbum
+                        className="logo-icon"
+                />
+        </NavLink>
+        <ul
+                className="right hide-on-med-and-down"
+                id="nav-mobile"
+        >
+                <li>
+                        <NavLink
+                                activeClassName="active"
+                                ariaCurrent="true"
+                                to="/signin"
+                        >
+                                Sign In
+                        </NavLink>
+                </li>
+        </ul>
+</div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            className="brand-logo"
+            to="/"
+>
+            <MdAlbum
+                        className="logo-icon"
+            />
+</NavLink>,
+          <ul
+            className="right hide-on-med-and-down"
+            id="nav-mobile"
+>
+            <li>
+                        <NavLink
+                                    activeClassName="active"
+                                    ariaCurrent="true"
+                                    to="/signin"
+                        >
+                                    Sign In
+                        </NavLink>
+            </li>
+</ul>,
+        ],
+        "className": "nav-wrapper indigo darken-1",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "ariaCurrent": "true",
+            "children": <MdAlbum
+              className="logo-icon"
+/>,
+            "className": "brand-logo",
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "logo-icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <li>
+              <NavLink
+                            activeClassName="active"
+                            ariaCurrent="true"
+                            to="/signin"
+              >
+                            Sign In
+              </NavLink>
+</li>,
+            "className": "right hide-on-med-and-down",
+            "id": "nav-mobile",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                to="/signin"
+>
+                Sign In
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "ariaCurrent": "true",
+                "children": "Sign In",
+                "to": "/signin",
+              },
+              "ref": null,
+              "rendered": "Sign In",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="nav-wrapper indigo darken-1"
+>
+          <NavLink
+                    activeClassName="active"
+                    ariaCurrent="true"
+                    className="brand-logo"
+                    to="/"
+          >
+                    <MdAlbum
+                              className="logo-icon"
+                    />
+          </NavLink>
+          <ul
+                    className="right hide-on-med-and-down"
+                    id="nav-mobile"
+          >
+                    <li>
+                              <NavLink
+                                        activeClassName="active"
+                                        ariaCurrent="true"
+                                        to="/signin"
+                              >
+                                        Sign In
+                              </NavLink>
+                    </li>
+          </ul>
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              className="brand-logo"
+              to="/"
+>
+              <MdAlbum
+                            className="logo-icon"
+              />
+</NavLink>,
+            <ul
+              className="right hide-on-med-and-down"
+              id="nav-mobile"
+>
+              <li>
+                            <NavLink
+                                          activeClassName="active"
+                                          ariaCurrent="true"
+                                          to="/signin"
+                            >
+                                          Sign In
+                            </NavLink>
+              </li>
+</ul>,
+          ],
+          "className": "nav-wrapper indigo darken-1",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "ariaCurrent": "true",
+              "children": <MdAlbum
+                className="logo-icon"
+/>,
+              "className": "brand-logo",
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "logo-icon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <li>
+                <NavLink
+                                activeClassName="active"
+                                ariaCurrent="true"
+                                to="/signin"
+                >
+                                Sign In
+                </NavLink>
+</li>,
+              "className": "right hide-on-med-and-down",
+              "id": "nav-mobile",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  ariaCurrent="true"
+                  to="/signin"
+>
+                  Sign In
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "ariaCurrent": "true",
+                  "children": "Sign In",
+                  "to": "/signin",
+                },
+                "ref": null,
+                "rendered": "Sign In",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            "type": "ul",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
