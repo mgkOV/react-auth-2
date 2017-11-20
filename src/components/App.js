@@ -4,6 +4,7 @@ import Landing from './Landing';
 import Header from './Header';
 import './App.css';
 import SignIn from './SignIn';
+import Admin from './Admin';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
             <Header />
             <Route exact path="/" component={Landing} />
             <Route exact path="/signin" component={SignIn} />
+            <Route exact path="/app" component={Admin} />
           </div>
         </Router>
       </div>

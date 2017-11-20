@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo2.png';
 import './Landing.css';
 
 class Landing extends Component {
   render() {
     return (
       <div className="card medium indigo darken-1 landing-card ">
-        <h1>Landing</h1>
+        <img src={logo} alt="Logo" className="landing-logo" />
+        <Link
+          to="/signin"
+          class="waves-effect waves-light btn btn landing-button"
+        >
+          Войти
+        </Link>
       </div>
     );
   }

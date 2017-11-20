@@ -1,7 +1,17 @@
 .landing-card {
-  width: 700px;
+  width: 600px;
   margin: 150px auto;
   color: #fff;
   text-align: center;
   padding: 15px;
+}
+
+.landing-logo {
+  width: 70%;
+}
+
+.landing-button {
+  display: block;
+  margin: 40px auto;
+  width: 60%;
 }
