@@ -10,7 +10,7 @@ class Landing extends Component {
         <img src={logo} alt="Logo" className="landing-logo" />
         <Link
           to="/signin"
-          class="waves-effect waves-light btn btn landing-button"
+          className="waves-effect waves-light btn btn landing-button"
         >
           Войти
         </Link>
