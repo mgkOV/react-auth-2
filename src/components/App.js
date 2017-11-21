@@ -5,6 +5,7 @@ import Header from './Header';
 import './App.css';
 import SignIn from './SignIn';
 import Admin from './Admin';
+import requireAuth from './hoc/requireAuth';
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
             <Header />
             <Route exact path="/" component={Landing} />
             <Route exact path="/signin" component={SignIn} />
-            <Route exact path="/app" component={Admin} />
+            <Route exact path="/app" component={requireAuth(Admin)} />
           </div>
         </Router>
       </div>

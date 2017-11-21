@@ -14,7 +14,7 @@ export class Header extends Component {
   };
 
   render() {
-    const { authenticateUser } = this.props;
+    const { auth: { authenticated } } = this.props;
     return (
       <nav>
         <div className="nav-wrapper indigo darken-1">
@@ -23,11 +23,9 @@ export class Header extends Component {
           </NavLink>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              {authenticateUser ? (
-                <a onClick={this.handleLogOut}>Выйти</a>
-              ) : (
-                <NavLink to="/signin">Войти</NavLink>
-              )}
+              {authenticated
+                ? <a onClick={this.handleLogOut}>Выйти</a>
+                : <NavLink to="/signin">Войти</NavLink>}
             </li>
           </ul>
         </div>
@@ -37,8 +35,8 @@ export class Header extends Component {
 }
 
 export default connect(
-  ({ authenticateUser }) => ({
-    authenticateUser
+  ({ auth }) => ({
+    auth
   }),
   { logOut }
 )(withRouter(Header));

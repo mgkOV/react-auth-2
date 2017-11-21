@@ -1,12 +1,13 @@
 import c from '../actions/constants';
 
-const authReducer = (state = false, action) => {
+const authReducer = (state = {}, action) => {
   switch (action.type) {
     case c.AUTHENTICATION_SUCCESS:
-      return true;
-    case c.AUTHENTICATION_ERROR:
+      return { ...state, err: null, authenticated: true };
+    case c.AUTH_ERROR:
+      return { ...state, err: action.payload, authenticated: false };
     case c.LOG_OUT:
-      return false;
+      return { ...state, err: null, authenticated: false };
     default:
       return state;
   }

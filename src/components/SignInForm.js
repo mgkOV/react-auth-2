@@ -3,9 +3,12 @@ import { Field, reduxForm } from 'redux-form';
 import MdFitnessCenter from 'react-icons/lib/md/fitness-center';
 import './SignInForm.css';
 
-const SignInForm = ({ handleSubmit }) => {
+const SignInForm = ({ handleSubmit, err }) => {
   return (
-    <form className="signin-form" onSubmit={handleSubmit}>
+    <form
+      className={`signin-form ${err ? 'signin-form_err' : ''}`}
+      onSubmit={handleSubmit}
+    >
       <label className="signin-label">
         <span>Логин:</span>
         <Field

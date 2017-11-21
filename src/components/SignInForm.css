@@ -19,8 +19,9 @@
   border-radius: 3px;
 }
 
-.signin-input {
-  border: 2px solid #fff !important;
+.signin-form input[type=text],
+.signin-form input[type=password] {
+  border: 2px solid #fff;
   border-radius: 3px;
   margin-top: 10px !important;
   display: inline-block;
@@ -31,8 +32,21 @@
   outline: none !important;
 }
 
-.signin-input:focus {
-  box-shadow: 0 2px #fff !important;
+.signin-form input[type=text].signin-input:focus,
+.signin-form input[type=password].signin-input:focus {
+  border: 2px solid #fff;
+  box-shadow: 0 2px #fff;
+}
+
+.signin-form.signin-form_err input[type=text],
+.signin-form.signin-form_err input[type=password] {
+  border: 2px solid #c62828;
+}
+
+.signin-form.signin-form_err input[type=text]:focus,
+.signin-form.signin-form_err input[type=password]:focus {
+  border: 2px solid #c62828;
+  box-shadow: 0 2px #c62828;
 }
 
 .submit-button_icon {

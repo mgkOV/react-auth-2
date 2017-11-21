@@ -1,4 +1,4 @@
-export const saveData = (key, data) => {
+export const persistData = (key, data) => {
   try {
     localStorage.setItem(key, JSON.stringify(data));
   } catch (e) {}
@@ -14,4 +14,10 @@ export const loadData = key => {
   } catch (err) {
     return undefined;
   }
+};
+
+export const removeData = key => {
+  try {
+    localStorage.removeItem(key);
+  } catch (e) {}
 };
